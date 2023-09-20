@@ -1,0 +1,12 @@
+apiVersion: cloud.beifeng.com.cloud.beifeng.com/v1
+kind: PvcExport
+metadata:
+  labels:
+    app.kubernetes.io/name: pvcexport
+    app.kubernetes.io/instance: pvcexport-sample
+    app.kubernetes.io/part-of: kubebuilder-demo
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kubebuilder-demo
+  name: pvcexport-sample
+spec:
+  # TODO(user): Add fields here
